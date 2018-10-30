@@ -10,3 +10,7 @@ end
 def input_to_index(str)
   index = str.to_i - 1
 end
+
+def move(board_array, input_index, character)
+  board_array[input_index] = character
+end
