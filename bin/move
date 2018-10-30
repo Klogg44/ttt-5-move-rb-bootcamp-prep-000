@@ -3,5 +3,8 @@
 require_relative '../lib/move.rb'
 
 # Code your CLI Here
-
+# Welcome the player
 puts "Welcome to Tic Tac Toe!"
+
+#Starting state of the Game
+board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
