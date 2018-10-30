@@ -13,3 +13,5 @@ board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts "Where would you like to go?"
 input = gets.strip
 
+#convert to index
+index = input_to_index(input)
