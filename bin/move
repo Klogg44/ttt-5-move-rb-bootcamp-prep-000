@@ -15,3 +15,6 @@ input = gets.strip
 
 #convert to index
 index = input_to_index(input)
+
+#move on the board
+move(board, index)
